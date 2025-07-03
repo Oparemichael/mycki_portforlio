@@ -8,18 +8,18 @@
 </head>
 <body>
   <header>
-    <h1>Michael's Portfolio</h1>
+    <h2>Michael's Portfolio</h2>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="about">
+  <section id="about" class="about">
     <h2>Michael Opare Gyeketey</h2>
     <p><strong>Front-End Developer</strong><br>Based in Accra, Ghana</p>
     <p>
@@ -27,12 +27,25 @@
     </p>
   </section>
 
-  <section id="skills">
+  <section id="skills" class="skills">
     <h2>Skills</h2>
-    <p>HTML, CSS, JavaScript, React, Vue.js, Angular, Responsive Design, UI/UX, Git, Webpack</p>
+    <div class="skills-list">
+      <div class="skill-item">
+        <h3>HTML</h3>
+        <p>Expert in semantic HTML and accessibility standards.</p>
+      </div>
+      <div class="skill-item">
+        <h3>CSS</h3>
+        <p>Proficient in CSS3, Flexbox, Grid, and responsive design techniques.</p>
+      </div>
+      <div class="skill-item">
+        <h3>JavaScript</h3>
+        <p>Experienced in ES6+ features, DOM manipulation, and asynchronous programming.</p>
+      </div>
+    </div>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="projects">
     <h2>Projects</h2>
     <ul>
       <li><strong>Project 1: E-commerce Website</strong><br>A fully functional e-commerce website with authentication and payment integration.</li>
